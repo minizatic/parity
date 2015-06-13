@@ -1,0 +1,125 @@
+html {
+	font-size: 12px;
+}
+body {
+	padding-top: 0px;
+	font-family: "Open Sans", sans-serif;
+}
+a {
+	text-decoration: none;
+	color: rgb(0, 0, 0);
+}
+header {
+	background-color: rgb(0, 0, 0);
+	background-image: url("../img/sky.jpg");
+	background-size: cover;
+	height: 300px;
+}
+header h1 {
+	font-size: 4rem;
+	position: relative;
+	max-width: 600px;
+	margin: 0 auto;
+	padding-left: 10px;
+	padding-right: 10px;
+  	top: 50%;
+  	-webkit-transform: translateY(-50%);
+  	-ms-transform: translateY(-50%);
+  	transform: translateY(-50%);
+  	text-align: center;
+}
+header h1 a {
+	font-family: "Montserrat";
+	font-weight: 400;
+	text-decoration: none;
+	color: rgb(255, 255, 255);
+}
+nav {
+	height: 60px;
+	width: 100%;
+	line-height: 60px;
+	background-color: rgba(0, 0, 0, 0.0);
+	position: absolute;
+	font-family: "Inconsolata";
+}
+nav ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	text-align: center;
+}
+nav ul li {
+	display: inline;
+}
+nav ul li a {
+	display: inline-block;
+	padding: 10px;
+	text-decoration: none;
+	color: rgb(180, 180, 180);
+	transition: all 0.1s ease;
+}
+nav ul li a:hover {
+	color: rgb(220, 220, 220);
+}
+main {
+	max-width: 700px;
+	margin: 0 auto;
+	padding-top: 40px;
+	padding-left: 20px;
+	padding-right: 20px;
+}
+main.single .post-meta {
+	margin-top: 10px;
+	margin-bottom: 40px;
+}
+article.post {
+	margin-bottom: 80px;
+}
+article.post h1 {
+	text-align: center;
+	margin-bottom: 12px;
+}
+article.post h1 a {
+	font-family: "Montserrat";
+}
+article.post .date-posted {
+	font-style: italic;
+}
+article.post .post-meta {
+	text-align: center;
+	color: rgb(120, 120, 120);
+}
+article.post .summary, .content{
+	font-family: "Lora", serif;
+	font-size: 1.2rem;
+	line-height: 1.8rem;
+}
+article.post .read-more a {
+	color: rgb(120, 120, 120);
+}
+footer {
+	width: 100%;
+	height: 60px;
+	text-align: center;
+	color: rgb(120, 120, 120);
+}
+@media (min-width: 330px) {
+	html {
+		font-size: 14px;
+	}
+}
+@media (min-width: 600px) {
+	html {
+		font-size: 16px;
+	}
+}
+@media (min-height: 400px) {
+	header {
+		height: 375px;
+	}
+}
+@media (min-height: 600px) {
+	header {
+		height: 575px;
+	}
+}

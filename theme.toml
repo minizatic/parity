@@ -1,0 +1,11 @@
+name = "Parity"
+license = "MIT"
+licenselink = "https://github.com/minizatic/parity/LICENSE.md"
+description = "Clean, responsive blog theme for Hugo"
+homepage = "http://blog.blakepatches.me/"
+tags = ["", ""]
+features = ["", ""]
+
+[author]
+  name = "Blake Patches"
+  homepage = "http://blakepatches.me"
